@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Perro",
+    "breeds": [
+      {"id": 1, "name": "Labrador", "pets": [
+        {"id": 1, "name": "Firulais", "type": "Perro", "age": 3, "owner": "Ana", "imageName": null, "microchip": "12345", "vaccinated": true, "weight": 22.5, "gender":"Macho", "color":"Marrón"},
+        {"id": 2, "name": "Sparky", "type": "Perro", "age": 5, "owner": "Luis", "imageName": null, "microchip": "67890", "vaccinated": false, "weight": 30.0, "gender":"Macho", "color":"Negro"}
+      ]},
+      {"id": 2, "name": "Bulldog", "pets": []},
+      {"id": 3, "name": "Poodle", "pets": []},
+      {"id": 4, "name": "Beagle", "pets": []},
+      {"id": 5, "name": "Pastor Alemán", "pets": []}
+    ]
+  },
+  {"id": 2, "name": "Gato", "breeds": [
+      {"id": 6, "name": "Siamés", "pets": [
+        {"id": 3, "name": "Misu", "type": "Gato", "age": 2, "owner": "Carlos", "imageName": null, "microchip": "54321", "vaccinated": true, "weight": 4.3, "gender":"Hembra", "color":"Blanco"}
+      ]},
+      {"id": 7, "name": "Persa", "pets": []},
+      {"id": 8, "name": "Maine Coon", "pets": []},
+      {"id": 9, "name": "Ragdoll", "pets": []},
+      {"id": 10, "name": "Bengal", "pets": []}
+    ]
+  },
+  {"id": 3, "name": "Ave", "breeds": [
+      {"id": 11, "name": "Periquito", "pets": []},
+      {"id": 12, "name": "Canario", "pets": []},
+      {"id": 13, "name": "Loro", "pets": []},
+      {"id": 14, "name": "Jilguero", "pets": []},
+      {"id": 15, "name": "Agaporni", "pets": []}
+    ]
+  },
+  {"id": 4, "name": "Roedor", "breeds": [
+      {"id": 16, "name": "Hámster", "pets": []},
+      {"id": 17, "name": "Cobaya", "pets": []},
+      {"id": 18, "name": "Chinchilla", "pets": []},
+      {"id": 19, "name": "Rata", "pets": []},
+      {"id": 20, "name": "Hurón", "pets": []}
+    ]
+  },
+  {"id": 5, "name": "Reptil", "breeds": [
+      {"id": 21, "name": "Iguana", "pets": []},
+      {"id": 22, "name": "Serpiente", "pets": []},
+      {"id": 23, "name": "Tortuga", "pets": []},
+      {"id": 24, "name": "Camaleón", "pets": []},
+      {"id": 25, "name": "Gecko", "pets": []}
+    ]
+  }
+]

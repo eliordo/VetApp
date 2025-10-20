@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Firulais",
+    "type": "Perro",
+    "age": 3,
+    "owner": "Ana",
+    "imageName": null
+  },
+  {
+    "id": 2,
+    "name": "Misu",
+    "type": "Gato",
+    "age": 2,
+    "owner": "Carlos",
+    "imageName": null
+  }
+]
