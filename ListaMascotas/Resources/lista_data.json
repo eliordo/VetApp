@@ -8,9 +8,15 @@
         {"id": 2, "name": "Sparky", "type": "Perro", "age": 5, "owner": "Luis", "imageName": null, "microchip": "67890", "vaccinated": false, "weight": 30.0, "gender":"Macho", "color":"Negro"}
       ]},
       {"id": 2, "name": "Bulldog", "pets": []},
-      {"id": 3, "name": "Poodle", "pets": []},
-      {"id": 4, "name": "Beagle", "pets": []},
-      {"id": 5, "name": "Pastor Alemán", "pets": []}
+      {"id": 3, "name": "Poodle", "pets": [
+        {"id": 4, "name": "Coco", "type": "Perro", "age": 4, "owner": "María", "imageName": null, "microchip": "A1111", "vaccinated": true, "weight": 8.0, "gender":"Hembra", "color":"Blanco"}
+      ]},
+      {"id": 4, "name": "Beagle", "pets": [
+        {"id": 5, "name": "Buddy", "type": "Perro", "age": 2, "owner": "Roberto", "imageName": null, "microchip": "A2222", "vaccinated": true, "weight": 10.5, "gender":"Macho", "color":"Tricolor"}
+      ]},
+      {"id": 5, "name": "Pastor Alemán", "pets": [
+        {"id": 6, "name": "Rex", "type": "Perro", "age": 6, "owner": "Lucia", "imageName": null, "microchip": "A3333", "vaccinated": true, "weight": 30.0, "gender":"Macho", "color":"Negro"}
+      ]}
     ]
   },
   {"id": 2, "name": "Gato", "breeds": [
@@ -21,30 +27,71 @@
       {"id": 8, "name": "Maine Coon", "pets": []},
       {"id": 9, "name": "Ragdoll", "pets": []},
       {"id": 10, "name": "Bengal", "pets": []}
+      ,
+      {"id": 7, "name": "Persa", "pets": [
+        {"id": 7, "name": "Nube", "type": "Gato", "age": 3, "owner": "Sofia", "imageName": null, "microchip": "G1111", "vaccinated": true, "weight": 5.0, "gender":"Hembra", "color":"Gris"}
+      ]},
+      {"id": 8, "name": "Maine Coon", "pets": [
+        {"id": 8, "name": "Thor", "type": "Gato", "age": 4, "owner": "Pedro", "imageName": null, "microchip": "G2222", "vaccinated": true, "weight": 6.0, "gender":"Macho", "color":"Marrón"}
+      ]},
+      {"id": 9, "name": "Ragdoll", "pets": [
+        {"id": 9, "name": "Luna", "type": "Gato", "age": 1, "owner": "Marta", "imageName": null, "microchip": "G3333", "vaccinated": false, "weight": 4.2, "gender":"Hembra", "color":"Blanco"}
+      ]},
+      {"id": 10, "name": "Bengal", "pets": [
+        {"id": 10, "name": "Simba", "type": "Gato", "age": 2, "owner": "Raul", "imageName": null, "microchip": "G4444", "vaccinated": true, "weight": 5.5, "gender":"Macho", "color":"Atigrado"}
+      ]}
     ]
   },
   {"id": 3, "name": "Ave", "breeds": [
       {"id": 11, "name": "Periquito", "pets": []},
-      {"id": 12, "name": "Canario", "pets": []},
-      {"id": 13, "name": "Loro", "pets": []},
-      {"id": 14, "name": "Jilguero", "pets": []},
-      {"id": 15, "name": "Agaporni", "pets": []}
+      {"id": 12, "name": "Canario", "pets": [
+        {"id": 11, "name": "Pico", "type": "Ave", "age": 1, "owner": "Ana", "imageName": null, "microchip": null, "vaccinated": false, "weight": 0.02, "gender":"Macho", "color":"Amarillo"}
+      ]},
+      {"id": 13, "name": "Loro", "pets": [
+        {"id": 12, "name": "Kiko", "type": "Ave", "age": 4, "owner": "Mario", "imageName": null, "microchip": null, "vaccinated": true, "weight": 0.9, "gender":"Macho", "color":"Verde"}
+      ]},
+      {"id": 14, "name": "Jilguero", "pets": [
+        {"id": 13, "name": "Chispa", "type": "Ave", "age": 2, "owner": "Laura", "imageName": null, "microchip": null, "vaccinated": true, "weight": 0.03, "gender":"Hembra", "color":"Marrón"}
+      ]},
+      {"id": 15, "name": "Agaporni", "pets": [
+        {"id": 14, "name": "Amor", "type": "Ave", "age": 3, "owner": "Diego", "imageName": null, "microchip": null, "vaccinated": false, "weight": 0.05, "gender":"Hembra", "color":"Multicolor"}
+      ]}
     ]
   },
   {"id": 4, "name": "Roedor", "breeds": [
-      {"id": 16, "name": "Hámster", "pets": []},
-      {"id": 17, "name": "Cobaya", "pets": []},
-      {"id": 18, "name": "Chinchilla", "pets": []},
-      {"id": 19, "name": "Rata", "pets": []},
-      {"id": 20, "name": "Hurón", "pets": []}
+      {"id": 16, "name": "Hámster", "pets": [
+        {"id": 15, "name": "Pelusa", "type": "Roedor", "age": 1, "owner": "Sergio", "imageName": null, "microchip": null, "vaccinated": false, "weight": 0.08, "gender":"Hembra", "color":"Marrón"}
+      ]},
+      {"id": 17, "name": "Cobaya", "pets": [
+        {"id": 16, "name": "Bubbles", "type": "Roedor", "age": 2, "owner": "Irene", "imageName": null, "microchip": null, "vaccinated": true, "weight": 0.9, "gender":"Macho", "color":"Blanco"}
+      ]},
+      {"id": 18, "name": "Chinchilla", "pets": [
+        {"id": 17, "name": "Nimbus", "type": "Roedor", "age": 3, "owner": "Felix", "imageName": null, "microchip": null, "vaccinated": true, "weight": 0.6, "gender":"Macho", "color":"Gris"}
+      ]},
+      {"id": 19, "name": "Rata", "pets": [
+        {"id": 18, "name": "Rita", "type": "Roedor", "age": 2, "owner": "Clara", "imageName": null, "microchip": null, "vaccinated": false, "weight": 0.35, "gender":"Hembra", "color":"Negro"}
+      ]},
+      {"id": 20, "name": "Hurón", "pets": [
+        {"id": 19, "name": "Bandit", "type": "Roedor", "age": 4, "owner": "Oscar", "imageName": null, "microchip": null, "vaccinated": true, "weight": 1.5, "gender":"Macho", "color":"Marrón"}
+      ]}
     ]
   },
   {"id": 5, "name": "Reptil", "breeds": [
-      {"id": 21, "name": "Iguana", "pets": []},
-      {"id": 22, "name": "Serpiente", "pets": []},
-      {"id": 23, "name": "Tortuga", "pets": []},
-      {"id": 24, "name": "Camaleón", "pets": []},
-      {"id": 25, "name": "Gecko", "pets": []}
+      {"id": 21, "name": "Iguana", "pets": [
+        {"id": 20, "name": "Draco", "type": "Reptil", "age": 5, "owner": "Alvaro", "imageName": null, "microchip": null, "vaccinated": false, "weight": 4.2, "gender":"Macho", "color":"Verde"}
+      ]},
+      {"id": 22, "name": "Serpiente", "pets": [
+        {"id": 21, "name": "Sly", "type": "Reptil", "age": 2, "owner": "Noelia", "imageName": null, "microchip": null, "vaccinated": false, "weight": 1.2, "gender":"Macho", "color":"Amarillo"}
+      ]},
+      {"id": 23, "name": "Tortuga", "pets": [
+        {"id": 22, "name": "Shelly", "type": "Reptil", "age": 10, "owner": "Hector", "imageName": null, "microchip": null, "vaccinated": false, "weight": 12.0, "gender":"Hembra", "color":"Marrón"}
+      ]},
+      {"id": 24, "name": "Camaleón", "pets": [
+        {"id": 23, "name": "Rango", "type": "Reptil", "age": 3, "owner": "Iris", "imageName": null, "microchip": null, "vaccinated": false, "weight": 0.2, "gender":"Macho", "color":"Verde"}
+      ]},
+      {"id": 25, "name": "Gecko", "pets": [
+        {"id": 24, "name": "Spike", "type": "Reptil", "age": 2, "owner": "Pablo", "imageName": null, "microchip": null, "vaccinated": false, "weight": 0.08, "gender":"Macho", "color":"Marrón"}
+      ]}
     ]
   }
 ]

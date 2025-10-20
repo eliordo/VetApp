@@ -12,6 +12,11 @@ class SpeciesViewController: UIViewController {
         loadData()
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("SpeciesViewController did appear. species count = \(species.count)")
+    }
+
     private func setupTableView() {
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
@@ -27,10 +32,15 @@ class SpeciesViewController: UIViewController {
     }
 
     private func loadData() {
-        guard let url = Bundle.main.url(forResource: "lista_data", withExtension: "json") else { return }
+        guard let url = Bundle.main.url(forResource: "lista_data", withExtension: "json") else {
+            print("lista_data.json not found in bundle. Bundle path: \(Bundle.main.bundlePath)")
+            return
+        }
+        print("Found lista_data.json at: \(url.path)")
         do {
             let data = try Data(contentsOf: url)
             species = try JSONDecoder().decode([Species].self, from: data)
+            print("Decoded species count: \(species.count)")
             tableView.reloadData()
         } catch {
             print("Error loading lista_data.json: \(error)")
